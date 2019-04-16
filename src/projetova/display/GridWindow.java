@@ -3,9 +3,9 @@ package projetova.display;
 import java.awt.Dimension;
 import javax.swing.JFrame;
 
-public class Window extends JFrame
+public class GridWindow extends JFrame
 {
-    public Window() 
+    public GridWindow()
     {
         this.setVisible(true);
         this.setResizable(true);
@@ -13,8 +13,8 @@ public class Window extends JFrame
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.pack();
     }
-    
-    public Window(int width, int height)
+
+    public GridWindow(int width, int height)
     {
         this();
         this.setSize(width, height);
