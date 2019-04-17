@@ -21,12 +21,12 @@ public class Main
         GridPanel gp[] = new GridPanel[3];
         for(int i = 0; i < 3; i++) {
             gp[i] = new GridPanel(g[i]);
-            gp.setSquareSideLength(4);
+            gp[i].setSquareSideLength(4);
         }
 
-        GridWindow w[] = new GridWindows[3];
+        GridWindow w[] = new GridWindow[3];
         for(int i = 0; i < 3; i++) {
-            w[i] = new GridWindows(gp[i]);
+            w[i].add(gp[i]);
             w[i].pack();
         }
     }
