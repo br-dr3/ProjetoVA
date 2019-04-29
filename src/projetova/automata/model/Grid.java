@@ -1,4 +1,4 @@
-package projetova.model;
+package projetova.automata.model;
 
 public class Grid
 {

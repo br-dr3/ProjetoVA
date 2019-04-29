@@ -1,9 +1,9 @@
-package projetova.display;
+package projetova.automata.display;
 
 import java.awt.Color;
 import java.awt.Graphics;
 import javax.swing.JPanel;
-import projetova.model.Grid;
+import projetova.automata.model.Grid;
 
 public class GridPanel extends JPanel {
     Grid grid;

@@ -1,4 +1,4 @@
-package projetova.display;
+package projetova.automata.display;
 
 import java.awt.Dimension;
 import javax.swing.JFrame;

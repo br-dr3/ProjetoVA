@@ -1,4 +1,4 @@
-package projetova.model;
+package projetova.automata.model;
 
 import java.util.HashMap;
 import java.util.Map.Entry;
